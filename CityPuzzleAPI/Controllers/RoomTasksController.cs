@@ -7,11 +7,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CityPuzzleAPI.Model;
 using Newtonsoft.Json;
+using CityPuzzleAPI.Aspects;
 
 namespace CityPuzzleAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [LogAspect]
     public class RoomTasksController : ControllerBase
     {
         private readonly CityPuzzleContext _context;

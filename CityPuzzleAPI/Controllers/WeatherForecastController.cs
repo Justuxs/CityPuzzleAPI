@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using CityPuzzleAPI.Aspects;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,7 @@ namespace CityPuzzleAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [LogAspect]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = new[]

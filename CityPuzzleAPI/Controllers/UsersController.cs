@@ -7,11 +7,13 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CityPuzzleAPI.Model;
 using Microsoft.Extensions.Logging;
+using CityPuzzleAPI.Aspects;
 
 namespace CityPuzzleAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [LogAspect]
     public class UsersController : ControllerBase
     {
         private readonly CityPuzzleContext _context;

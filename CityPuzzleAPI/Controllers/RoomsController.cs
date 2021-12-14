@@ -6,11 +6,13 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CityPuzzleAPI.Model;
+using CityPuzzleAPI.Aspects;
 
 namespace CityPuzzleAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [LogAspect]
     public class RoomsController : ControllerBase
     {
         private readonly CityPuzzleContext _context;
@@ -33,11 +35,12 @@ namespace CityPuzzleAPI.Controllers
         {
             var room = await _context.Rooms.FindAsync(id);
 
+            
             if (room == null)
             {
                 return NotFound();
             }
-
+            
             return room;
         }
 
