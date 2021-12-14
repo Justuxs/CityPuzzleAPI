@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CityPuzzleAPI.Model;
+using Microsoft.Extensions.Logging;
 
 namespace CityPuzzleAPI.Controllers
 {
@@ -20,11 +21,17 @@ namespace CityPuzzleAPI.Controllers
             _context = context;
         }
 
+        private readonly ILogger<UsersController> _logger;
+
+        public UsersController(ILogger<UsersController> logger)
+        {
+            _logger = logger;
+        }
         // GET: api/Users
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
         {
-            return await _context.Users.ToListAsync();
+                        return await _context.Users.ToListAsync();
         }
 
         // GET: api/Users/5
@@ -32,7 +39,7 @@ namespace CityPuzzleAPI.Controllers
         public async Task<ActionResult<User>> GetUser(int id)
         {
             var user = await _context.Users.FindAsync(id);
-
+            
             if (user == null)
             {
                 return NotFound();
@@ -77,6 +84,8 @@ namespace CityPuzzleAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<User>> PostUser(User user)
         {
+            if ((String.IsNullOrWhiteSpace(user.Pass)) || (String.IsNullOrWhiteSpace(user.UserName)))
+                return BadRequest();
             _context.Users.Add(user);
             await _context.SaveChangesAsync();
 
