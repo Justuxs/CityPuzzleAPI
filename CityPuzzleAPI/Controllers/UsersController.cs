@@ -21,12 +21,7 @@ namespace CityPuzzleAPI.Controllers
             _context = context;
         }
 
-        private readonly ILogger<UsersController> _logger;
 
-        public UsersController(ILogger<UsersController> logger)
-        {
-            _logger = logger;
-        }
         // GET: api/Users
         [HttpGet]
         public async Task<ActionResult<IEnumerable<User>>> GetUsers()
