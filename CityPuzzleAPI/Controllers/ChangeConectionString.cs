@@ -1,4 +1,5 @@
 ﻿using CityPuzzleAPI.Model;
+using CityPuzzleAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -16,15 +17,15 @@ namespace CityPuzzleAPI.Controllers
     {
 
         [HttpPost]
-        public async Task<IActionResult> PostUser(string conn)
+        public async Task<ActionResult<ConnString>> PostConn(ConnString conn)
         {
-            if ((String.IsNullOrWhiteSpace(conn)) || (String.IsNullOrWhiteSpace(conn)))
+            if ((String.IsNullOrWhiteSpace(conn.Conn)) || (String.IsNullOrWhiteSpace(conn.Token) || !conn.Token.Equals("CityPuzzle")))
             {
                 return BadRequest();
             }
-            Console.WriteLine(conn);
-            CityPuzzleContext.ConnectionString = conn;
-            return NoContent();
+            Console.WriteLine(conn.Conn);
+            CityPuzzleContext.ConnectionString = conn.Conn;
+            return CreatedAtAction("PostConn", conn);
         }
         // GET: ChangeConectionString/Delete/5
 

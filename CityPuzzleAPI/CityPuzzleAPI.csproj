@@ -26,7 +26,6 @@
 
   <ItemGroup>
     <Folder Include="Business Data Connectivity Model\" />
-    <Folder Include="Models\" />
   </ItemGroup>
 
 </Project>
