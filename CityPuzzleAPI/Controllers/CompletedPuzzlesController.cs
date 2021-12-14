@@ -52,7 +52,34 @@ namespace CityPuzzleAPI.Controllers
                 return CompletedPuzzles;
             }
         }
-
+        [HttpGet("{id}")]
+        public async Task<ActionResult<IEnumerable<CompletedPuzzle>>> GetCompletedPuzzles(int id)
+        {
+            string sql = "Select CompletedTaskId,UserId,PuzzleId,Score from CompletedPuzzles Where UserID=@UserID";
+            List<CompletedPuzzle> CompletedPuzzles = new List<CompletedPuzzle>();
+            using (SqlConnection conn = new SqlConnection(CityPuzzleContext.ConnectionString))
+            {
+                SqlCommand command;
+                SqlDataReader dataReader;
+                conn.Open();
+                command = new SqlCommand(sql, conn);
+                command.Parameters.AddWithValue("@UserID", id);
+                dataReader = command.ExecuteReader();
+                while (dataReader.Read())
+                {
+                    CompletedPuzzle temp = new CompletedPuzzle()
+                    {
+                        CompletedPuzzleId = dataReader.GetInt32(0),
+                        UserId = dataReader.GetInt32(1),
+                        PuzzleId = dataReader.GetInt32(2),
+                        Score = dataReader.GetInt32(3)
+                    };
+                    CompletedPuzzles.Add(temp);
+                }
+                conn.Close();
+                return CompletedPuzzles;
+            }
+        }
         // --------------------------------------------
         [HttpPost]
         public async Task<ActionResult<CompletedPuzzle>> PostCompletedPuzzle(CompletedPuzzle completedPuzzle)
@@ -73,6 +100,23 @@ namespace CityPuzzleAPI.Controllers
             }
         }
 
+        // DELETE: api/Rooms/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> CompletedPuzzle(int id)
+        {
+            string sql = "DELETE from CompletedPuzzles where CompletedTaskId=@CompletedPuzzleId";
+            using (SqlConnection conn = new SqlConnection(CityPuzzleContext.ConnectionString))
+            {
+                conn.Open();
+                var command = new SqlCommand(sql, conn);
+                command.Parameters.AddWithValue("@CompletedPuzzleId", id);
+                command.ExecuteNonQuery();
+                conn.Close();
+       
+            }
+
+            return NoContent();
+        }
 
     }
 }
