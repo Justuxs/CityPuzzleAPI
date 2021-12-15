@@ -11,7 +11,7 @@ using CityPuzzleAPI.Aspects;
 namespace CityPuzzleAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     [LogAspect]
 
 
