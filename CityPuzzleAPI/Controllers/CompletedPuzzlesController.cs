@@ -19,14 +19,7 @@ namespace CityPuzzleAPI.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<CompletedPuzzle>>> GetCompletedPuzzles()
         {
-            Console.WriteLine("veiaaakiu");
-            CompletedPuzzle CompletedPuzzlesss = new CompletedPuzzle()
-            {
-                CompletedPuzzleId = 10,
-                PuzzleId = 10,
-                Score = 100,
-                UserId = 100,
-            };
+
             string sql = "Select CompletedTaskId,UserId,PuzzleId,Score from CompletedPuzzles";
             List<CompletedPuzzle> CompletedPuzzles = new List<CompletedPuzzle>();
             using (SqlConnection conn = new SqlConnection(CityPuzzleContext.ConnectionString))
@@ -41,7 +34,7 @@ namespace CityPuzzleAPI.Controllers
                 {
                     CompletedPuzzle temp = new CompletedPuzzle()
                     {
-                        CompletedPuzzleId= dataReader.GetInt32(0),
+                        CompletedPuzzleId = dataReader.GetInt32(0),
                         UserId = dataReader.GetInt32(1),
                         PuzzleId = dataReader.GetInt32(2),
                         Score = dataReader.GetInt32(3)
@@ -52,6 +45,7 @@ namespace CityPuzzleAPI.Controllers
                 return CompletedPuzzles;
             }
         }
+
         [HttpGet("{id}")]
         public async Task<ActionResult<IEnumerable<CompletedPuzzle>>> GetCompletedPuzzles(int id)
         {
@@ -84,7 +78,6 @@ namespace CityPuzzleAPI.Controllers
         [HttpPost]
         public async Task<ActionResult<CompletedPuzzle>> PostCompletedPuzzle(CompletedPuzzle completedPuzzle)
         {
-            string sql = "Select CompletedTaskId,UserID,PuzzleID,Score from CompletedPuzzles";
             List<CompletedPuzzle> CompletedPuzzles = new List<CompletedPuzzle>();
             using (SqlConnection conn = new SqlConnection(CityPuzzleContext.ConnectionString))
             {
@@ -100,6 +93,32 @@ namespace CityPuzzleAPI.Controllers
             }
         }
 
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutCompletedPuzzle(int id, CompletedPuzzle completedPuzzle)
+        {
+            try
+            {
+                List<CompletedPuzzle> CompletedPuzzles = new List<CompletedPuzzle>();
+                using (SqlConnection conn = new SqlConnection(CityPuzzleContext.ConnectionString))
+                {
+                    conn.Open();
+                    var command = new SqlCommand("Update CompletedPuzzles set UserId,PuzzleId,Score where CompletedTaskId=@CompletedPuzzleId VALUES (@UserId,@PuzzleId,@Score)", conn);
+                    command.Parameters.AddWithValue("@CompletedPuzzleId", id);
+                    command.Parameters.AddWithValue("@UserId", completedPuzzle.UserId);
+                    command.Parameters.AddWithValue("@PuzzleId", completedPuzzle.PuzzleId);
+                    command.Parameters.AddWithValue("@Score", completedPuzzle.Score);
+                    command.ExecuteNonQuery();
+                    conn.Close();
+                    return NoContent();
+                }
+            }
+            catch (SqlException ex)
+            {
+                return BadRequest();
+            }
+        }
+
+
         // DELETE: api/Rooms/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> CompletedPuzzle(int id)
@@ -112,7 +131,7 @@ namespace CityPuzzleAPI.Controllers
                 command.Parameters.AddWithValue("@CompletedPuzzleId", id);
                 command.ExecuteNonQuery();
                 conn.Close();
-       
+
             }
 
             return NoContent();
