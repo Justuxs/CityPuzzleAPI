@@ -10,22 +10,31 @@ using System.Threading.Tasks;
 namespace CityPuzzleAPI.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
 
 
     public class ChangeConectionString : ControllerBase
     {
 
-        [HttpPost]
+        [HttpGet]
+        public async Task<ActionResult<ConnString>> GetConnString()
+        {
+
+            ConnString connString = new ConnString() { Conn = CityPuzzleContext.ConnectionString, Token = "SECRET" };
+            return connString;
+        }
+
+    [HttpPost]
         public async Task<ActionResult<ConnString>> PostConn(ConnString conn)
         {
+            Console.WriteLine("Kreipimas su:"+ conn.Token+ " "+conn.Conn);
             if ((String.IsNullOrWhiteSpace(conn.Conn)) || (String.IsNullOrWhiteSpace(conn.Token) || !conn.Token.Equals("CityPuzzle")))
             {
                 return BadRequest();
             }
-            Console.WriteLine(conn.Conn);
+            Console.WriteLine("Keitimas i:"+conn.Conn+ "Keitimas is:" + CityPuzzleContext.ConnectionString);
             CityPuzzleContext.ConnectionString = conn.Conn;
-            return CreatedAtAction("PostConn", conn);
+            return conn;
         }
         // GET: ChangeConectionString/Delete/5
 
