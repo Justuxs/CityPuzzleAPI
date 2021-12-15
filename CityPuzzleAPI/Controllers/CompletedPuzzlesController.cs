@@ -7,11 +7,13 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using CityPuzzleAPI.Model;
 using System.Data.SqlClient;
+using CityPuzzleAPI.Aspects;
 
 namespace CityPuzzleAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [LogAspect]
     public class CompletedPuzzlesController : ControllerBase
     {
 

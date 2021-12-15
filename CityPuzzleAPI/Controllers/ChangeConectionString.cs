@@ -6,11 +6,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CityPuzzleAPI.Aspects;
 
 namespace CityPuzzleAPI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [LogAspect]
 
 
     public class ChangeConectionString : ControllerBase

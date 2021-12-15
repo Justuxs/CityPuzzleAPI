@@ -1,0 +1,866 @@
+2021-12-14 17:41:56.408 +02:00 [INF] User profile is available. Using 'C:\Users\Rokas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-14 17:41:57.056 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-14 17:41:57.056 +02:00 [INF] Hosting environment: Development
+2021-12-14 17:41:57.056 +02:00 [INF] Content root path: C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI
+2021-12-14 17:41:57.134 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger - -
+2021-12-14 17:41:57.363 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/index.html - -
+2021-12-14 17:41:57.393 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger - - - 301 - - 272.8794ms
+2021-12-14 17:41:57.478 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/index.html - - - 200 - text/html;charset=utf-8 115.0784ms
+2021-12-14 17:41:57.502 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/swagger-ui.css - -
+2021-12-14 17:41:57.502 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/swagger-ui-bundle.js - -
+2021-12-14 17:41:57.502 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/swagger-ui-standalone-preset.js - -
+2021-12-14 17:41:57.545 +02:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2021-12-14 17:41:57.545 +02:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2021-12-14 17:41:57.545 +02:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2021-12-14 17:41:57.549 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/swagger-ui.css - - - 200 142933 text/css 46.7970ms
+2021-12-14 17:41:57.554 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/swagger-ui-standalone-preset.js - - - 200 311804 application/javascript 51.6228ms
+2021-12-14 17:41:57.570 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/swagger-ui-bundle.js - - - 200 986342 application/javascript 68.3703ms
+2021-12-14 17:41:57.727 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/v1/swagger.json - -
+2021-12-14 17:41:57.755 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/favicon-32x32.png - -
+2021-12-14 17:41:57.756 +02:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2021-12-14 17:41:57.757 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/favicon-32x32.png - - - 200 628 image/png 1.3094ms
+2021-12-14 17:41:57.814 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 86.3210ms
+2021-12-14 18:06:34.775 +02:00 [INF] User profile is available. Using 'C:\Users\Rokas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-14 18:06:35.030 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-14 18:06:35.030 +02:00 [INF] Hosting environment: Development
+2021-12-14 18:06:35.030 +02:00 [INF] Content root path: C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI
+2021-12-14 18:06:35.083 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/index.html - -
+2021-12-14 18:06:35.194 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/index.html - - - 200 - text/html;charset=utf-8 112.6715ms
+2021-12-14 18:06:35.375 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/v1/swagger.json - -
+2021-12-14 18:06:35.453 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.7658ms
+2021-12-14 18:09:12.590 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/api/Rooms/0 - -
+2021-12-14 18:09:12.622 +02:00 [WRN] Failed to determine the https port for redirect.
+2021-12-14 18:09:12.658 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.GetRoom (CityPuzzleAPI)'
+2021-12-14 18:09:12.690 +02:00 [INF] Route matched with {action = "GetRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CityPuzzleAPI.Model.Room]] GetRoom(Int32) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:09:12.697 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.GetRoom (CityPuzzleAPI) in 2.2795ms
+2021-12-14 18:09:12.698 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.GetRoom (CityPuzzleAPI)'
+2021-12-14 18:09:13.076 +02:00 [ERR] WebApi exception, Method: GET http://localhost:26790/api/Rooms/0, Content: ""
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:09:13.139 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/api/Rooms/0 - - - 500 - application/json 548.7479ms
+2021-12-14 18:09:38.096 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/api/Rooms/0 - -
+2021-12-14 18:09:38.102 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.GetRoom (CityPuzzleAPI)'
+2021-12-14 18:09:38.103 +02:00 [INF] Route matched with {action = "GetRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CityPuzzleAPI.Model.Room]] GetRoom(Int32) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:09:38.104 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.GetRoom (CityPuzzleAPI) in 1.083ms
+2021-12-14 18:09:38.104 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.GetRoom (CityPuzzleAPI)'
+2021-12-14 18:09:38.149 +02:00 [ERR] WebApi exception, Method: GET http://localhost:26790/api/Rooms/0, Content: ""
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:09:38.155 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/api/Rooms/0 - - - 500 - application/json 59.1530ms
+2021-12-14 18:09:50.365 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/api/Rooms/0 - -
+2021-12-14 18:09:50.365 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.GetRoom (CityPuzzleAPI)'
+2021-12-14 18:09:50.365 +02:00 [INF] Route matched with {action = "GetRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CityPuzzleAPI.Model.Room]] GetRoom(Int32) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:09:50.366 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.GetRoom (CityPuzzleAPI) in 0.9816ms
+2021-12-14 18:09:50.366 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.GetRoom (CityPuzzleAPI)'
+2021-12-14 18:09:50.416 +02:00 [ERR] WebApi exception, Method: GET http://localhost:26790/api/Rooms/0, Content: ""
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:09:50.417 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/api/Rooms/0 - - - 500 - application/json 52.5330ms
+2021-12-14 18:09:51.007 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/api/Rooms/0 - -
+2021-12-14 18:09:51.008 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.GetRoom (CityPuzzleAPI)'
+2021-12-14 18:09:51.008 +02:00 [INF] Route matched with {action = "GetRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CityPuzzleAPI.Model.Room]] GetRoom(Int32) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:09:51.008 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.GetRoom (CityPuzzleAPI) in 0.6665ms
+2021-12-14 18:09:51.009 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.GetRoom (CityPuzzleAPI)'
+2021-12-14 18:09:51.060 +02:00 [ERR] WebApi exception, Method: GET http://localhost:26790/api/Rooms/0, Content: ""
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:09:51.062 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/api/Rooms/0 - - - 500 - application/json 54.5332ms
+2021-12-14 18:09:51.577 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/api/Rooms/0 - -
+2021-12-14 18:09:51.578 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.GetRoom (CityPuzzleAPI)'
+2021-12-14 18:09:51.578 +02:00 [INF] Route matched with {action = "GetRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[CityPuzzleAPI.Model.Room]] GetRoom(Int32) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:09:51.579 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.GetRoom (CityPuzzleAPI) in 1.0262ms
+2021-12-14 18:09:51.579 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.GetRoom (CityPuzzleAPI)'
+2021-12-14 18:09:51.629 +02:00 [ERR] WebApi exception, Method: GET http://localhost:26790/api/Rooms/0, Content: ""
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:09:51.631 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/api/Rooms/0 - - - 500 - application/json 53.5501ms
+2021-12-14 18:16:13.273 +02:00 [INF] User profile is available. Using 'C:\Users\Rokas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-14 18:16:13.539 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-14 18:16:13.539 +02:00 [INF] Hosting environment: Development
+2021-12-14 18:16:13.539 +02:00 [INF] Content root path: C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI
+2021-12-14 18:16:13.594 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/index.html - -
+2021-12-14 18:16:13.707 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/index.html - - - 200 - text/html;charset=utf-8 114.0338ms
+2021-12-14 18:16:13.828 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/v1/swagger.json - -
+2021-12-14 18:16:13.916 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 87.9009ms
+2021-12-14 18:16:36.419 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:26790/api/Users application/json 125
+2021-12-14 18:16:36.450 +02:00 [WRN] Failed to determine the https port for redirect.
+2021-12-14 18:16:36.487 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.UsersController.PostUser (CityPuzzleAPI)'
+2021-12-14 18:16:36.507 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.UsersController.PostUser (CityPuzzleAPI)'
+2021-12-14 18:16:36.676 +02:00 [ERR] WebApi exception, Method: POST http://localhost:26790/api/Users, Content: "{\"id\":420,\"userName\":\"string\",\"firstName\":\"string\",\"lastName\":\"string\",\"pass\":\"string\",\"email\":\"string\",\"maxQuestDistance\":0}"
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'CityPuzzleAPI.Controllers.UsersController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:16:36.744 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:26790/api/Users application/json 125 - 500 - application/json 325.4099ms
+2021-12-14 18:16:39.799 +02:00 [INF] Request starting HTTP/1.1 POST http://localhost:26790/api/Users application/json 125
+2021-12-14 18:16:39.804 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.UsersController.PostUser (CityPuzzleAPI)'
+2021-12-14 18:16:39.808 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.UsersController.PostUser (CityPuzzleAPI)'
+2021-12-14 18:16:39.878 +02:00 [ERR] WebApi exception, Method: POST http://localhost:26790/api/Users, Content: "{\"id\":420,\"userName\":\"string\",\"firstName\":\"string\",\"lastName\":\"string\",\"pass\":\"string\",\"email\":\"string\",\"maxQuestDistance\":0}"
+System.InvalidOperationException: Multiple constructors accepting all given argument types have been found in type 'CityPuzzleAPI.Controllers.UsersController'. There should only be one applicable constructor.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.TryFindMatchingConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& parameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.CreateActivator(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.CreateControllerFactory(ControllerActionDescriptor descriptor)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:16:39.879 +02:00 [INF] Request finished HTTP/1.1 POST http://localhost:26790/api/Users application/json 125 - 500 - application/json 80.6922ms
+2021-12-14 18:18:24.342 +02:00 [INF] User profile is available. Using 'C:\Users\Rokas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-14 18:18:24.736 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-14 18:18:24.736 +02:00 [INF] Hosting environment: Development
+2021-12-14 18:18:24.736 +02:00 [INF] Content root path: C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI
+2021-12-14 18:18:24.791 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/index.html - -
+2021-12-14 18:18:24.933 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/index.html - - - 200 - text/html;charset=utf-8 143.9166ms
+2021-12-14 18:18:25.143 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/v1/swagger.json - -
+2021-12-14 18:18:25.275 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 132.0753ms
+2021-12-14 18:18:50.094 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:26790/api/Participants/belekoks - -
+2021-12-14 18:18:50.103 +02:00 [WRN] Failed to determine the https port for redirect.
+2021-12-14 18:18:50.141 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.ParticipantsController.DeleteParticipant (CityPuzzleAPI)'
+2021-12-14 18:18:50.175 +02:00 [INF] Route matched with {action = "DeleteParticipant", controller = "Participants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteParticipant(System.String) on controller CityPuzzleAPI.Controllers.ParticipantsController (CityPuzzleAPI).
+2021-12-14 18:18:50.181 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.ParticipantsController.DeleteParticipant (CityPuzzleAPI) in 2.4022ms
+2021-12-14 18:18:50.182 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.ParticipantsController.DeleteParticipant (CityPuzzleAPI)'
+2021-12-14 18:18:50.346 +02:00 [ERR] WebApi exception, Method: DELETE http://localhost:26790/api/Participants/belekoks, Content: ""
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.ParticipantsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:18:50.417 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:26790/api/Participants/belekoks - - - 500 - application/json 323.5681ms
+2021-12-14 18:18:52.999 +02:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:26790/api/Participants/belekoks - -
+2021-12-14 18:18:53.001 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.ParticipantsController.DeleteParticipant (CityPuzzleAPI)'
+2021-12-14 18:18:53.001 +02:00 [INF] Route matched with {action = "DeleteParticipant", controller = "Participants"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteParticipant(System.String) on controller CityPuzzleAPI.Controllers.ParticipantsController (CityPuzzleAPI).
+2021-12-14 18:18:53.003 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.ParticipantsController.DeleteParticipant (CityPuzzleAPI) in 1.353ms
+2021-12-14 18:18:53.003 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.ParticipantsController.DeleteParticipant (CityPuzzleAPI)'
+2021-12-14 18:18:53.051 +02:00 [ERR] WebApi exception, Method: DELETE http://localhost:26790/api/Participants/belekoks, Content: ""
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.ParticipantsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:18:53.052 +02:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:26790/api/Participants/belekoks - - - 500 - application/json 53.7154ms
+2021-12-14 18:23:09.534 +02:00 [INF] User profile is available. Using 'C:\Users\Rokas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-14 18:23:10.063 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-14 18:23:10.063 +02:00 [INF] Hosting environment: Development
+2021-12-14 18:23:10.063 +02:00 [INF] Content root path: C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI
+2021-12-14 18:23:10.145 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/index.html - -
+2021-12-14 18:23:10.290 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/index.html - - - 200 - text/html;charset=utf-8 144.3583ms
+2021-12-14 18:23:10.454 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/v1/swagger.json - -
+2021-12-14 18:23:10.581 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 126.4325ms
+2021-12-14 18:23:29.037 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/api/Rooms - -
+2021-12-14 18:23:29.049 +02:00 [WRN] Failed to determine the https port for redirect.
+2021-12-14 18:23:29.083 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.GetRooms (CityPuzzleAPI)'
+2021-12-14 18:23:29.114 +02:00 [INF] Route matched with {action = "GetRooms", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityPuzzleAPI.Model.Room]]] GetRooms() on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:23:29.120 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.GetRooms (CityPuzzleAPI) in 2.1609ms
+2021-12-14 18:23:29.122 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.GetRooms (CityPuzzleAPI)'
+2021-12-14 18:23:29.281 +02:00 [ERR] WebApi exception, Method: GET http://localhost:26790/api/Rooms, Content: ""
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:23:29.350 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/api/Rooms - - - 500 - application/json 313.2304ms
+2021-12-14 18:23:31.619 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/api/Rooms - -
+2021-12-14 18:23:31.621 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.GetRooms (CityPuzzleAPI)'
+2021-12-14 18:23:31.622 +02:00 [INF] Route matched with {action = "GetRooms", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[CityPuzzleAPI.Model.Room]]] GetRooms() on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:23:31.623 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.GetRooms (CityPuzzleAPI) in 1.0435ms
+2021-12-14 18:23:31.623 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.GetRooms (CityPuzzleAPI)'
+2021-12-14 18:23:31.669 +02:00 [ERR] WebApi exception, Method: GET http://localhost:26790/api/Rooms, Content: ""
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:23:31.670 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/api/Rooms - - - 500 - application/json 51.6170ms
+2021-12-14 18:25:25.149 +02:00 [INF] User profile is available. Using 'C:\Users\Rokas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-14 18:25:25.499 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-14 18:25:25.499 +02:00 [INF] Hosting environment: Development
+2021-12-14 18:25:25.499 +02:00 [INF] Content root path: C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI
+2021-12-14 18:25:25.552 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/index.html - -
+2021-12-14 18:25:25.665 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/index.html - - - 200 - text/html;charset=utf-8 115.0556ms
+2021-12-14 18:25:25.791 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/v1/swagger.json - -
+2021-12-14 18:25:25.875 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 84.3463ms
+2021-12-14 18:25:55.257 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:25:55.293 +02:00 [WRN] Failed to determine the https port for redirect.
+2021-12-14 18:25:55.332 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:25:55.368 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:25:55.376 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 2.9391ms
+2021-12-14 18:25:55.377 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:25:55.548 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":0,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":0}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:25:55.621 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 363.9745ms
+2021-12-14 18:26:24.222 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:26:24.252 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:24.252 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:26:24.253 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 0.8552ms
+2021-12-14 18:26:24.254 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:24.308 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":1,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":3}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:26:24.316 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 94.1425ms
+2021-12-14 18:26:48.304 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:26:48.305 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:48.306 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:26:48.309 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 3.1832ms
+2021-12-14 18:26:48.309 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:48.358 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":1,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":3}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:26:48.361 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 56.4188ms
+2021-12-14 18:26:49.195 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:26:49.195 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:49.196 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:26:49.196 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 0.7051ms
+2021-12-14 18:26:49.197 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:49.243 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":1,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":3}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:26:49.248 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 53.2953ms
+2021-12-14 18:26:50.288 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:26:50.289 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:50.299 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:26:50.300 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 1.1206ms
+2021-12-14 18:26:50.300 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:50.348 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":1,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":3}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:26:50.350 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 62.2708ms
+2021-12-14 18:26:50.660 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:26:50.660 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:50.660 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:26:50.661 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 0.7037ms
+2021-12-14 18:26:50.661 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:50.707 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":1,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":3}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:26:50.708 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 48.2946ms
+2021-12-14 18:26:51.080 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:26:51.081 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:51.081 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:26:51.081 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 0.6335ms
+2021-12-14 18:26:51.082 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:51.126 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":1,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":3}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:26:51.128 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 47.3579ms
+2021-12-14 18:26:51.399 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:26:51.399 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:51.399 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:26:51.400 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 1.1459ms
+2021-12-14 18:26:51.401 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:51.446 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":1,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":3}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:26:51.448 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 48.7076ms
+2021-12-14 18:26:51.615 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:26:51.615 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:51.615 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:26:51.616 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 0.6431ms
+2021-12-14 18:26:51.616 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:51.660 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":1,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":3}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:26:51.661 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 46.3190ms
+2021-12-14 18:26:51.772 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:26:51.772 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:51.772 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:26:51.773 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 0.8089ms
+2021-12-14 18:26:51.773 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:51.822 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":1,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":3}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:26:51.824 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 51.8006ms
+2021-12-14 18:26:51.937 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:26:51.937 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:51.937 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:26:51.938 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 0.6198ms
+2021-12-14 18:26:51.938 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:51.982 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":1,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":3}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:26:51.983 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 46.3138ms
+2021-12-14 18:26:52.097 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:26:52.097 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:52.097 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:26:52.098 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 0.5952ms
+2021-12-14 18:26:52.098 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:52.143 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":1,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":3}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:26:52.144 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 47.6379ms
+2021-12-14 18:26:52.264 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:26:52.265 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:52.265 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:26:52.265 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 0.6996ms
+2021-12-14 18:26:52.266 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:52.311 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":1,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":3}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:26:52.312 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 47.6821ms
+2021-12-14 18:26:52.430 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:26:52.430 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:52.430 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:26:52.431 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 0.991ms
+2021-12-14 18:26:52.431 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:52.480 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":1,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":3}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:26:52.482 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 52.1004ms
+2021-12-14 18:26:52.590 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:26:52.591 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:52.591 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:26:52.592 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 0.7819ms
+2021-12-14 18:26:52.592 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:26:52.641 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":1,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":3}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:26:52.642 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 51.9481ms
+2021-12-14 18:28:28.268 +02:00 [INF] User profile is available. Using 'C:\Users\Rokas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2021-12-14 18:28:28.533 +02:00 [INF] Application started. Press Ctrl+C to shut down.
+2021-12-14 18:28:28.533 +02:00 [INF] Hosting environment: Development
+2021-12-14 18:28:28.533 +02:00 [INF] Content root path: C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI
+2021-12-14 18:28:28.585 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/index.html - -
+2021-12-14 18:28:28.705 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/index.html - - - 200 - text/html;charset=utf-8 121.7338ms
+2021-12-14 18:28:28.826 +02:00 [INF] Request starting HTTP/1.1 GET http://localhost:26790/swagger/v1/swagger.json - -
+2021-12-14 18:28:28.907 +02:00 [INF] Request finished HTTP/1.1 GET http://localhost:26790/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 80.7064ms
+2021-12-14 18:28:56.707 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:28:56.715 +02:00 [WRN] Failed to determine the https port for redirect.
+2021-12-14 18:28:56.751 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:28:56.784 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:28:56.790 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 2.6696ms
+2021-12-14 18:28:56.792 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:28:56.965 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":0,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":0}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:28:57.036 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 330.5359ms
+2021-12-14 18:29:15.505 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:29:15.509 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:29:15.509 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:29:15.510 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 1.1635ms
+2021-12-14 18:29:15.511 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:29:15.557 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":0,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":0}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:29:15.558 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 53.5711ms
+2021-12-14 18:29:16.650 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:29:16.650 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:29:16.650 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:29:16.651 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 0.8049ms
+2021-12-14 18:29:16.651 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:29:16.697 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":0,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":0}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:29:16.699 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 48.4734ms
+2021-12-14 18:29:18.076 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:29:18.076 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:29:18.077 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:29:18.078 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 1.0035ms
+2021-12-14 18:29:18.078 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:29:18.122 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":0,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":0}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:29:18.124 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 47.6650ms
+2021-12-14 18:29:20.512 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50
+2021-12-14 18:29:20.512 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:29:20.513 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:29:20.514 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 1.5717ms
+2021-12-14 18:29:20.514 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:29:20.560 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/1, Content: "{\"id\":0,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":0}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:29:20.562 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/1 application/json 50 - 500 - application/json 49.3751ms
+2021-12-14 18:29:30.575 +02:00 [INF] Request starting HTTP/1.1 PUT http://localhost:26790/api/Rooms/420420420420420420 application/json 50
+2021-12-14 18:29:30.575 +02:00 [INF] Executing endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:29:30.575 +02:00 [INF] Route matched with {action = "PutRoom", controller = "Rooms"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] PutRoom(Int32, CityPuzzleAPI.Model.Room) on controller CityPuzzleAPI.Controllers.RoomsController (CityPuzzleAPI).
+2021-12-14 18:29:30.576 +02:00 [INF] Executed action CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI) in 1.0249ms
+2021-12-14 18:29:30.577 +02:00 [INF] Executed endpoint 'CityPuzzleAPI.Controllers.RoomsController.PutRoom (CityPuzzleAPI)'
+2021-12-14 18:29:30.627 +02:00 [ERR] WebApi exception, Method: PUT http://localhost:26790/api/Rooms/420420420420420420, Content: "{\"id\":0,\"roomPin\":\"string\",\"owner\":0,\"roomSize\":0}"
+System.InvalidOperationException: Unable to resolve service for type 'CityPuzzleAPI.Model.CityPuzzleContext' while attempting to activate 'CityPuzzleAPI.Controllers.RoomsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method415(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at CityPuzzleAPI.WebApi.Middleware.StatisticsMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\StatisticsMiddleware.cs:line 38
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at CityPuzzleAPI.WebApi.Middleware.ErrorHandlingMiddleware.InvokeAsync(HttpContext context) in C:\Users\Rokas\Source\Repos\CityPuzzleAPI\CityPuzzleAPI\Middleware\ErrorHandlingMiddleware.cs:line 34
+2021-12-14 18:29:30.628 +02:00 [INF] Request finished HTTP/1.1 PUT http://localhost:26790/api/Rooms/420420420420420420 application/json 50 - 500 - application/json 53.3253ms
