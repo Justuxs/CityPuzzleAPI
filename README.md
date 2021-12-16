@@ -2,7 +2,7 @@
 1)	Clone https://github.com/Justuxs/CityPuzzleAPI github repo to Visual Studio
 2)	Run / Build solution with 'IIS Express' option. This will create applicationhost.config
 3)	Go to CityPuzzleAPI file path. It should look something like this: *\source\repos\CityPuzzleAPI
-4)	Then go to *\CityPuzzleAPI\.vs\CityPuzzleAPI\config and open applicationhost.config
+4)	Then go to *\CityPuzzleAPI\\.vs\CityPuzzleAPI\config and open applicationhost.config
      If .vs folder is not visible you have to anable hidden files in file explorers tool bar View tab
 5) Inside the config file edit bindings by adding binding protocol. This should be somewhere around 155 line
      Make sure you have these binding protocols:
