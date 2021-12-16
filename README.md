@@ -6,13 +6,13 @@
      If .vs folder is not visible you have to anable hidden files in file explorers tool bar View tab
 5) Inside the config file edit bindings by adding binding protocol. This should be somewhere around 155 line
      Make sure you have these binding protocols:
-          <binding protocol="http" bindingInformation=":8080:localhost" />
-          <binding protocol="http" bindingInformation=":8080:127.0.0.1" />
+          `<binding protocol="http" bindingInformation=":8080:localhost" />`
+          `<binding protocol="http" bindingInformation=":8080:127.0.0.1" />`
 6) Edit more bindings somewhere around 163 line. 
      Make sure you have these binding protocols:
-          <binding protocol="http" bindingInformation="*:26790:localhost" />
-          <binding protocol="http" bindingInformation="*:26790:127.0.0.1" />
-          <binding protocol="http" bindingInformation="*:26790:86.38.160.86" />
+          `<binding protocol="http" bindingInformation="*:26790:localhost" />`
+          `<binding protocol="http" bindingInformation="*:26790:127.0.0.1" />`
+          `<binding protocol="http" bindingInformation="*:26790:86.38.160.86" />`
 7) Change ConnectionString in CityPuzzleApi\Model\CityPuzzleContex into your data base connString. This would be your local db connString for testing
 8) Run solution with 'CityPuzzleAPI' run option to use it
 
